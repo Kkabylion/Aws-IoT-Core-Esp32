@@ -2,7 +2,7 @@
 #define THINGNAME "ESP32_Board"
 const char WIFI_SSID[] = "Wifi";               // Your wifiname
 const char WIFI_PASSWORD[] = "password";           // Password for wifi
-const char AWS_IOT_ENDPOINT[] = "a1eliyss8gqg6m-ats.iot.eu-north-1.amazonaws.com";       //Check in AWS for this endpoint
+const char AWS_IOT_ENDPOINT[] = "r18l9gf8e3nkdzbsdg6m-ats.iot.eu-south-1.amazonaws.com";       //Check in AWS for this endpoint
  
 // google "Amazon Root CA 1" and Copy n Paste the pem text inside the certificate
 static const char AWS_CERT_CA[] PROGMEM = R"EOF(
