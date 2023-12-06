@@ -5,7 +5,7 @@
 #include "WiFi.h"
  
 #include "DHT.h"
-#define DHTPIN 14     // Digital pin connected to the DHT sensor
+#define DHTPIN 2     // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11   // DHT 11
  
 #define AWS_IOT_PUBLISH_TOPIC   "dht11/pub" // Mqtt Pub
