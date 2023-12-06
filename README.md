@@ -116,3 +116,33 @@ Build a Grafana dashboard to visualize the data. Use SQL queries to retrieve dat
 
 ## Conclusion
 This project provides a comprehensive example of integrating various technologies for IoT data collection, storage, and visualization. It demonstrates the capabilities of AWS in handling IoT applications and the flexibility of Grafana for data analysis and dashboard creation.
+
+---
+
+## Troubleshooting and Optimization
+- **Debugging Connectivity**: Use Serial Monitor for ESP32 troubleshooting.
+- **AWS Permissions**: Ensure correct configurations for IoT Core, DynamoDB, and Athena.
+- **Athena Query Optimization**: Consider data partitioning for large datasets.
+- **Grafana Visualization**: Verify data types and query formats for visualizations.
+
+---
+
+### Security Enhancements
+
+#### 1. **Fine-Grained IoT Policies**
+- Implement more specific AWS IoT Core policies. Limit devices to the minimum necessary actions, such as restricting each device to only its MQTT topics.
+
+#### 2. **Secure Device Provisioning**
+- Use AWS IoT Device Defender to continuously monitor and audit your IoT configurations.
+- Consider using Just-in-Time Registration (JITR) for dynamic and secure device registration.
+
+#### 3. **Encrypt Data**
+- Ensure all data in transit is encrypted using TLS.
+- Use AWS KMS (Key Management Service) for encryption keys management and enable encryption at rest for DynamoDB and S3.
+
+#### 4. **Regular Updates and Patching**
+- Keep the device firmware and software up-to-date with the latest security patches.
+
+#### 5. **Network Security**
+- Employ VPCs, security groups, and network ACLs to restrict network access.
+- Use AWS WAF (Web Application Firewall) to protect your APIs.
