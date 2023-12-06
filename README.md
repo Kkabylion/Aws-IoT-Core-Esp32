@@ -10,7 +10,8 @@
 - [5. Data Processing and Transformation with AWS Glue](#5-data-processing-and-transformation-with-aws-glue)
 - [6. Visualize Data with AWS Athena and Grafana](#6-visualize-data-with-aws-athena-and-grafana)
 - [Conclusion](#conclusion)
-
+- [Troubleshooting and Optimization](#troubleshooting-and-optimization)
+- [Security Enhancements](#security-enhancements)
 ---
 
 ## Overview
